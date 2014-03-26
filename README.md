@@ -49,6 +49,7 @@ finish_freezing -library
 Now, move the shared library in the Android Project.
 
 ```bash
+mkdir ../../Test_Android/libs/armeabi/
 mv ../spec/android-9-arm/lib/libapp.so ../../Test_Android/libs/armeabi/
 ```
 
