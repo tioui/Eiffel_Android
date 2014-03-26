@@ -1,0 +1,6 @@
+EIFGENs
+*.a
+*.o
+*.so
+Test_Android/bin
+Test_Android/gen

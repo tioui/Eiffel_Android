@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<system xmlns="http://www.eiffel.com/developers/xml/configuration-1-12-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.eiffel.com/developers/xml/configuration-1-12-0 http://www.eiffel.com/developers/xml/configuration-1-12-0.xsd" name="android_test" uuid="CAA4AD0A-F427-44A4-BCD7-AF5FBD934614">
+	<target name="android_test">
+		<root class="ANDROID_APPLICATION" feature="make"/>
+		<option warning="true">
+			<assertions precondition="true" postcondition="true" check="true" invariant="true" loop="true" supplier_precondition="true"/>
+		</option>
+		<external_include location="/usr/lib/jvm/java-7-openjdk-amd64/include/">
+			<condition>
+				<platform excluded_value="windows"/>
+			</condition>
+		</external_include>
+		<external_cflag value="-fpermissive"/>
+		<variable name="toolchain" value="android"/>
+		<library name="base" location="$ISE_LIBRARY\library\base\base-safe.ecf"/>
+		<library name="eiffel_android" location="..\library\eiffel_android-safe.ecf" readonly="false"/>
+		<cluster name="android_test" location=".\" recursive="true">
+			<file_rule>
+				<exclude>/EIFGENs$</exclude>
+				<exclude>/CVS$</exclude>
+				<exclude>/.svn$</exclude>
+			</file_rule>
+		</cluster>
+	</target>
+</system>
