@@ -13,7 +13,7 @@ Installation
 First, you need to compile a EiffelStudio that target an Android machine.
 See: https://github.com/tioui/Eiffel_Spec/tree/master/android-spec .
 
-Download the current repository. and put it some place.
+Download the current repository and put it some place.
 
 Compilation and execution of the test example
 ---------------------------------------------
