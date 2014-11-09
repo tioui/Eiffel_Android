@@ -1,0 +1,7 @@
+
+-- EXPORTED FEATURE(s) OF THE SHARED LIBRARY 
+-- SYSTEM : java-example
+
+-- CLASS [JAVA_ACCESS]
+JAVA_ACCESS (default_create) : hello alias hello_from_eiffel
+JAVA_ACCESS (default_create) : fibonacci_sequence alias fibonacci_sequence_from_eiffel

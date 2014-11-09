@@ -1,0 +1,19 @@
+1) Finalize the Eiffel project
+
+2) Open a terminal in the "java" directory
+
+3) Move the .so file in the "java" directory and rename it accordingly.
+	# mv ../eiffel/EIFGENs/java-example/F_code/java-example.so ./libexample.so
+
+4) Compile the Java code
+	# javac Test.java
+
+5) Create the .h file
+	# javah Test
+
+6) Compile the C glue file (Change the -I and -L path depending of your system)
+	# gcc -g -shared -o libtest.so test.c -lexample -L. -lfinalized -L/usr/local/Eiffel_14.05/studio/spec/linux-x86-64/lib/ -I/usr/local/Eiffel_14.05/studio/spec/linux-x86-64/include -I/usr/lib/jvm/java-7-openjdk-amd64/include/ -Wall -fpic
+
+7) Try it
+	# java Test
+
