@@ -7,6 +7,9 @@ Note: This library is an attempt to use the Android API from Eiffel. It is not
 working at the moment and if we succeeded to make it work, there is lots of
 work to be done before having a usable library.
 
+[<img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif">](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=louis%40tioui%2ecom&lc=CA&item_name=Louis%20Marchand&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted)
+[<img src="https://www.coinbase.com/assets/buttons/donation_small-5dab7534cbb87a4ff2b44e469351ec86.png">](https://www.coinbase.com/tioui)
+
 Installation
 ------------
 
